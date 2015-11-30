@@ -1,0 +1,16 @@
+<div class="[ col-sm-4 col-md-2 ]">
+    <div class="[ info-card ]">
+        <img style="width: 100%" ng-src="{{vm.user.picture}}"/>
+
+        <div class="[ info-card-details ] animate">
+            <div class="[ info-card-header ]">
+                <h1> {{vm.user.name}}</h1>
+
+                <h3> {{vm.user.alias}} </h3>
+            </div>
+            <div class="[ info-card-detail ]">
+                <button class="btn btn-primary" ng-click="vm.editCriminal(vm.user)">Editar</button>
+            </div>
+        </div>
+    </div>
+</div>
